@@ -101,7 +101,7 @@ const BookTable = () => {
         <div className="header-content">
           <div className="logo-section" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
             <Coffee className="logo-icon" />
-            <span className="logo-text">{cafeInfo.name}</span>
+            <span className="logo-text hidden md:block">{cafeInfo.name}</span>
           </div>
           <Button onClick={() => navigate('/')} className="btn-secondary-cafe">
             Back to Home
